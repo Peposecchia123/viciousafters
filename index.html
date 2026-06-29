@@ -1,5 +1,5 @@
+```html
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 
@@ -35,7 +35,7 @@ inset:-4%;
 
 background:
 linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)),
-url('IMG_4271.JPG');
+url('background.jpg');
 
 background-size:cover;
 background-position:center;
@@ -129,49 +129,25 @@ text-shadow:0 0 22px rgba(255,255,255,.08);
 
 }
 
-.subtitle{
-
-margin-top:28px;
-
-font-size:24px;
-
-font-weight:300;
-
-letter-spacing:8px;
-
-color:#c8c8c8;
-
-}
-
-.line{
-
-width:70px;
-
-height:1px;
-
-background:rgba(255,255,255,.35);
-
-margin:42px auto;
-
-}
-
 .links{
+
+margin-top:48px;
 
 display:flex;
 
-flex-direction:column;
-
-gap:18px;
+justify-content:center;
 
 }
 
 .links a{
 
-font-size:18px;
+font-size:20px;
 
-color:#bfbfbf;
+color:#c8c8c8;
 
-text-decoration:none;
+text-decoration:underline;
+
+text-underline-offset:6px;
 
 transition:.25s;
 
@@ -188,24 +164,18 @@ transform:translateY(-2px);
 @keyframes breathe{
 
 0%{
-
 transform:scale(1);
 filter:brightness(1);
-
 }
 
 50%{
-
 transform:scale(1.04);
 filter:brightness(1.08);
-
 }
 
 100%{
-
 transform:scale(1);
 filter:brightness(1);
-
 }
 
 }
@@ -224,17 +194,13 @@ filter:brightness(1);
 @keyframes fade{
 
 from{
-
 opacity:0;
 transform:translateY(12px);
-
 }
 
 to{
-
 opacity:1;
 transform:translateY(0);
-
 }
 
 }
@@ -253,14 +219,6 @@ transform:translateY(0);
 
 <h1>vicious afters</h1>
 
-<div class="subtitle">
-
-coming soon
-
-</div>
-
-<div class="line"></div>
-
 <div class="links">
 
 <a href="https://www.instagram.com/viciousafters" target="_blank">
@@ -278,3 +236,4 @@ instagram
 </body>
 
 </html>
+```
